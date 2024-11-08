@@ -1,0 +1,29 @@
+.containerDesk{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+
+}
+
+.box1Desk{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2rem;
+    border: 2px solid black;
+    width: 40vw;
+    align-self: center;
+    
+
+}
+
+.inputBox1{
+
+    text-align: center;
+    width: 15vw;
+
+}
