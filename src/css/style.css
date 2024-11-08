@@ -53,3 +53,18 @@
 
 
 }
+
+
+.box3Desk{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    align-items: center;
+    line-height: 2rem;
+    border:  2px solid;
+    width: 40vw;
+    align-self: center;
+
+}
