@@ -28,3 +28,22 @@
 
 }
 
+img{
+    width: 12vw;
+    position: relative;
+    top: 5vw;
+}
+
+.extIMG{
+
+    position: relative;
+    left: 10vw;
+
+}
+
+.extIMG2{
+
+    position: relative;
+    left: 65vw;
+    
+}
