@@ -1,3 +1,4 @@
+
 .containerDesk{
 
     display: flex;
@@ -17,6 +18,7 @@
     border: 2px solid black;
     width: 40vw;
     align-self: center;
+    line-height: 4rem;
     
 
 }
@@ -34,11 +36,11 @@
     flex-direction: column;
     justify-content: center;
     max-width: 100%;
-    align-items: center;
+    align-items: flex-end;
     border: 2px solid;
     width: 40vw;
     align-self: center;
-    line-height: 1.2rem;
+    line-height: 3rem;
 
 }
 
@@ -49,6 +51,7 @@
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     font-weight: 600;
+    text-align: left;
 
 
 
@@ -66,5 +69,81 @@
     border:  2px solid;
     width: 40vw;
     align-self: center;
+    line-height: 4rem;
 
+}
+
+.inputPri{
+
+    width: 15vw;
+    height: 2vw;
+    border: 3px solid rgb(106, 106, 106);
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 600;
+
+
+}
+
+.inputPri__data{
+
+    height: 2vw;
+    text-align: center;
+    font-weight: 600;
+}
+
+.inputSec{
+
+    width: 15vw;
+    height: 2vw;
+    border: 3px solid rgb(106, 106, 106);
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 600;
+    
+
+}
+
+.textLong{
+
+    width: 25vw;
+    height: 5vw;
+    position: relative;
+    right: 5vw;
+
+}
+
+subTextLong{
+
+
+    position: relative;
+    right: 35vw;
+
+}
+
+button{
+
+    width: 10vw;
+    height: 2vw;
+    border-radius: 5px;
+    background-color: bisque;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.controlButton{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    border: 2px black solid;
+    width: 12vw;
+    height: 3vw;
+    position: relative;
+    left: 13.5vw;
+    bottom: 3.2vw;
 }

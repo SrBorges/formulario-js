@@ -33,7 +33,7 @@
                 
                 <span>
                     
-                    De:<input type="text" placeholder="Informe o Hospital" class="inputBox1"><br>
+                    <input  class="inputPri" type="text" placeholder="Informe o Hospital" class="inputBox1"><br>
                 </span>
                 
                 
@@ -47,9 +47,9 @@
                 </span>
                 
                 <span>
-                    Nome: <input type="text"><br>
-                    Data de nascimento: <input type="date"><br>
-                    Número do Cartão SIM <input type="text">
+                    <input type="text" class="inputPri" placeholder="Informe o nome"><br>
+                    Data de nascimento: <input type="date" class="inputPri__data"><br>
+                    <input type="text" class="inputPri" placeholder="Número do Cartão SIM">
                     
                 </span>
             </div>
@@ -62,36 +62,36 @@
                     <p class="box2Desk__titulo">Resumo do atendimento</p>
                     <span>
                         
-                        Pressão arterial: <input type="number"> mmHg<br> 
-                        Peso: <input type="text"> Kg<br>
-                        Estatura: <input type="text"> M<br>
+                        <input type="number" class="inputSec" placeholder="Pressão arterial"> mmHg<br> 
+                        <input type="text" class="inputSec" placeholder="Peso"> Kg<br>
+                        <input type="text" class="inputSec" placeholder="Estatura"> M<br>
                         
                         
                     </span>
 
                     <p>
                         Queixa, história e exame clínico:<br>
-                        <textarea></textarea>
+                        <textarea class="textLong"></textarea>
                       
                     </p>
                     
                     <p>
                         
-                        Resultados de exames alterados: Laboratoriais,
+                        Resultados de exames alterados:<br> Laboratoriais,
                         anatomopatológico e imagem<br>
                         
-                        <textarea></textarea>
+                        <textarea class="textLong"></textarea>
 
                     </p>
 
                     <p>
                         Hipótese(s) Diagnóstico(s)<br>
 
-                        <textarea></textarea>
+                        <textarea class="textLong"></textarea>
                     </p>
                     
                     <p>Condutas(s) e Tratamento(s) realizados(s)</p>
-                    <textarea style="position: relative; bottom: 1vw;"></textarea>
+                    <textarea style="position: relative; bottom: 1vw;" class="textLong"></textarea>
 
                 </span>
 
@@ -100,12 +100,17 @@
             <div class="box3Desk">
                 
                 <p>
-                    Observações: <input type="text"><br>
-                    Data: <input type="date">
+                    <input type="text" class="inputPri" placeholder="Observações"><br>
+                    Data: <input type="date" class="inputPri__data">
                 </p>
+
                 
             </div>
+            
+            <div class="controlButton">
 
+                <button>Cadastrar</button>
+            </div>
             
         </div>
     </table>
